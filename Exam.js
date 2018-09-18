@@ -12,7 +12,7 @@ const checkOut = {
             sumItems += this.cost[i];
             console.log(this.items);
         };      
-        document.write("Total: $" + sumItems.toFixed(2));   
+        document.write(`Total: $${sumItems.toFixed(2)}`);   
         console.log("Total: $" + this.sumItems.toFixed(2));     
     }    
 }
