@@ -1,6 +1,6 @@
 const checkOut = {
-    firstName: "Contance",
-    lastName: "McCrue",
+    firstName: "Constance",
+    lastName: "Tennenbaum",
     value: ["Milk", "Bread", "Cheese", "Ham, Lunch Meat"],
     cost: [3.32,1.29,3.35,4.26],
     printShoppingCart(){
