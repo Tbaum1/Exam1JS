@@ -6,7 +6,7 @@ const checkOut = {
     printShoppingCart(){
         var sumItems = 0;  
         document.write(`Name: ${this.firstName} ${this.lastName} <br/>Items Purchased: <br/>`);
-        for (i = 0; i < this.value.length; i++) {            
+        for (let i = 0; i < this.value.length; i++) {            
             var items = document.write(this.value[i] +  ' ' + '$' + this.cost[i] + "<br/>");
             //document.write(items + "<br/>");
             sumItems += this.cost[i];
